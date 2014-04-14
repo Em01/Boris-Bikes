@@ -6,7 +6,8 @@ def initialize
   # all instance variables begin with "@"
   #rhis must be an instance variable because we'll need it
   #in other methods 
-  @broken = false
+  #changed for DRY
+  fix
 end
 
   def broken?
